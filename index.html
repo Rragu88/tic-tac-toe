@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tic-Tac-Toe</title>
+</head>
+<body>
+    <header>
+        <h1>Tic-Tac-Toe</h1>
+        <button class="ai-btn">Play AI Bot</button>
+    </header>
+    <main>
+        <div class="message" id="message">Player X's Turn</div>
+        <div class="gameboard">
+            <div class="grid-element right bottom" data-index="0"></div>
+            <div class="grid-element right bottom" data-index="1"></div>
+            <div class="grid-element none bottom" data-index="2"></div>
+            <div class="grid-element right bottom" data-index="3"></div>
+            <div class="grid-element right bottom" data-index="4"></div>
+            <div class="grid-element none bottom" data-index="5"></div>
+            <div class="grid-element right" data-index="6"></div>
+            <div class="grid-element right" data-index="7"></div>
+            <div class="grid-element none" data-index="8"></div>  
+        </div>
+        <button id="restart-btn">Restart</button>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
